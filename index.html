@@ -1,0 +1,646 @@
+<html>
+
+<head>
+    
+    <title>Technology - BBC News</title>
+    
+    <style type="text/css">
+    
+        #topbar {
+            
+            width:1200px;
+            margin: 0 auto;
+            height:35.5px;
+      
+        }
+    
+        body {
+            
+            margin:0;
+            padding:0;
+            font-family: Helvetica, Arial, sans-serif;
+        }
+        
+        #logo {
+            
+            margin-top:8px;
+            width:100px;
+            float:left;
+            margin-right:8px;
+            margin-left:8px;
+
+        }
+        
+        .topbar-section {
+            
+            float:left;
+            border-left:1px #CCCCCC solid;
+            height:135%;
+            
+        }
+        
+        #signin-image {
+            
+            width: 28px;
+            margin:10px 8px;
+            float:left;
+            
+        }
+        
+        #signin-text {
+            
+            float:left;
+            font-weight:bold;
+            font-size:100%;
+            position:relative;
+            top:15px;
+            padding-right:50px;
+            
+        }
+        
+        #signin-text a:link {
+            
+            color:black;
+            text-decoration:none;    
+            
+        }
+        
+        #signin-text a:visited {
+            
+            color:black;
+            
+        }
+        
+        #wigglyline {
+            
+            float:left;
+            height:48px;
+            
+        }
+        
+        #bell {
+            
+            height:29px;
+            margin:12px 8px 0 8px;
+            
+        }
+        
+        #bell-div {
+            
+            float:left;
+            
+        }
+        
+        .topbar-menu {
+            
+            font-weight:bold;
+            font-size:100%;
+            padding: 15px 15px 0px 15px;
+            height:33px;
+            
+        }
+        
+        #more-arrow {
+            
+            width:10px;
+            margin-left:15px;
+            
+            
+        }
+        
+        #search-box {
+            
+            background-color:#E4E4E4;
+            border:none;
+            font-weight:bold;
+            font-size:15px;
+            padding:5px;
+            margin:9px 0 9px 9px;
+            float:left;
+            
+        }
+        
+        #magnifying-glass {
+            
+            height:30px;
+            margin-top:8px;
+            margin-left:4px;
+            
+        }
+        
+        .clear {
+            
+            clear:both;
+            
+        }
+        
+        #menu-bar-container {
+            
+            border-top:1px solid #CCCCCC;
+            background-color:#BB1919;
+            width:100%;
+            height:70px;
+            
+        }
+        
+        #menu-bar {
+            
+            width:1200px;
+            margin:0 auto;
+            padding-left:7px;
+            
+        }
+        
+        h1 {
+            
+            padding:0;
+            margin:0;
+            color:white;
+            font-size:45px;
+            font-weight:normal;
+            padding-top:10px;
+            float:left;
+            
+        }
+        
+        #local-news {
+            
+            border:1px #BB4545 solid;
+            float:right;
+            width:300px; 
+            height:60px;
+            padding:0 0 0 10px;
+            margin:4px 150px 0 5px;
+            
+        }
+        
+        #local-news a {
+            
+            color:white;
+            text-decoration:none;
+            font-size:35px;
+            position:relative;
+            top:-15px;
+            
+        }
+        
+        #local-news a:hover {
+            
+            text-decoration:underline;
+            
+        }
+        
+        #local-news img {
+            
+            height:35px;
+            padding-top:25px;
+            padding-left:10px;
+         
+        }
+        
+        #menu-bar-2-container {
+            
+            background-color:#A91717;
+            width:100%     
+            
+        }
+        
+        #menu-bar-2 {
+            
+            width:1000px;
+            margin:0;
+            height:30px;
+            
+        }
+        
+        #menu-bar-2 a {
+            
+            color:white;
+            text-decoration:none;
+            margin:-2px;
+            padding:0 12px;
+            padding-left:-100px;
+            border-right:1px solid #BB4545;
+            font-size:14px;
+            position:relative;
+            top:5px;
+            
+        }
+        
+        #menu-bar-2 a:hover {
+            
+            text-decoration:underline;
+            
+        }
+        
+        .no-border {
+        
+            border:none !important;
+            
+        }
+        
+        #down-arrow {
+            
+            width:10px;
+            position:relative;
+            top:4px;
+        }
+        
+        page-container {
+            
+            width:1000px;
+            margin:0 auto;
+            
+            
+        }
+        
+        #main-article {
+            
+            margin-left:10px;
+            
+        }
+        
+        h2 {
+            
+            font-weight:normal;
+            margin-top:10px;
+            font-size:20px;
+            border-bottom:2px solid #A91717;
+            width:101px;
+            
+        }
+        
+        h3 a {
+            
+            color:black;
+            font-size:30px;
+            text-decoration:none;   
+            
+        }
+        
+        h3 a:hover {
+            
+            color:#1167a8;
+            
+        }
+        
+        #article-summary {
+            
+            color:#5a5a5a;
+            width:220px;
+            float:left;
+            
+        }
+        
+        .topic-link {
+            
+            text-decoration:none;
+            color:#a91717;
+            padding:0 7px 0 10px;
+            border-left:1px solid #CCCCCC;
+            
+        }
+        
+        #article-summary a:hover {
+            
+            color:#1167a8;
+            text-decoration:underline;
+            
+        }
+        
+        .clock {
+            
+            height:14px;
+            padding-top:1px;
+            
+        }
+        
+        .date {
+            
+            padding-right:5px;
+            color:#5a5a5a;
+            
+        }
+        
+        
+        #comment-img {
+            
+            height:17px;
+            padding-left:10px;
+            border-left:1px solid #CCCCCC;
+                
+        }
+        
+        #article-container {
+            
+            float:left;
+            width:700px;
+            
+        }
+        
+        #main-article-image {
+            
+            width:440px;
+            padding-left:20px;
+            
+            
+        }
+        
+        #article-hr {
+            
+            border-top:1px solid #a91717;
+            width:50px;
+            
+        }
+        
+        .article-link {
+            
+            color:black;
+            text-decoration:none;
+            
+        }
+        
+        #watch-listen {
+        
+            width:470px;
+            float:right;
+            border-left:1px solid #CCCCCC;
+            padding-left:19px;
+            
+        }
+        
+        h4 {
+            
+            font-weight:normal;
+            font-size:20px;
+            
+        }
+        
+        #vid1-image {
+            
+            float:left;
+            width:200px;
+            margin-right:10px;
+            
+            
+        }
+        
+        .clock-side {
+            
+            height:14px;
+            padding-top:1px;
+            padding-right:5px;
+            
+        }
+        
+        .watch-listen-link {
+            
+            text-decoration:none;
+            color:black;
+            font-weight:bold;
+            font-size:18px;
+            
+        }
+        
+        .watch-listen-link:hover {
+            
+            color:#1167a8;
+            text-decoration:underline;
+            
+        }
+        
+        #vid2-image {
+            
+            float:left;
+            width:200px;
+            margin:15px 0 0 0;
+            padding-right:10px;
+            
+        }
+        
+        .border-right {
+            
+            border-right:1px solid #CCCCCC;
+            
+        }
+        
+         .topic-link-1 {
+            
+            text-decoration:none;
+            color:#a91717;
+             
+        }
+        
+        #vid3-image {
+            
+            float:left;
+            width:200px;
+            margin:15px 0 0 0;
+            padding-right:10px;
+            
+        }
+        
+    </style>
+    
+    </head>
+    
+    <body>
+        
+    <div id="topbar">
+        
+        <a href="https://www.bbc.co.uk/"><img id="logo" src="images/bbc-logo.png"></a>
+        
+        <div id="signing-div" class="topbar-section">
+        
+            <a href="https://account.bbc.com/signin/"><img id="signin-image" src="images/sign-in.png"></a>
+            
+        </div>
+        
+        <div id="signin-text">
+            
+            <a href="https://account.bbc.com/signin?/">Sign in</a>
+        
+        </div>
+        
+        <div id="bell-div">
+        
+        <img id="wigglyline" src="images/wigglyline.png">
+        <img id="bell" src="images/bell.png">
+        
+        </div>
+        
+        <div class="topbar-section topbar-menu">
+        
+        News
+        
+        </div>
+        
+        <div class="topbar-section topbar-menu">
+        
+        Sport
+        
+        </div>
+        
+        <div class="topbar-section topbar-menu">
+        
+        Weather
+        
+        </div>
+        
+        <div class="topbar-section topbar-menu">
+        
+        iPlayer
+        
+        </div>
+        
+        <div class="topbar-section topbar-menu">
+        
+        TV
+        
+        </div>
+        
+        <div class="topbar-section topbar-menu">
+        
+        More
+            
+        <img id="more-arrow" src="images/more-arrow.png">
+        
+        </div>
+        
+        <div class="topbar-section">
+        
+        <input id="search-box" type="text" placeholder="Search">
+            
+            <a href="https://www.bbc.co.uk/search?q="><input type="image" id="magnifying-glass" src="images/magnifying-glass.png"></a> 
+            
+        </div>
+        
+        <div class="clear"></div>
+        
+        <div id="menu-bar-container">
+            
+        <div id="menu-bar">
+            
+            <a href="https://www.bbc.co.uk/news"><h1>NEWS</h1></a>
+            
+            <div id="local-news">
+            
+            <a href="https://www.bbc.co.uk/news/england/tyne_and_wear">Find local news</a>
+                
+                <a href="https://www.bbc.co.uk/news/england/tyne_and_wear"><img src="images/pointer.png"></a>
+            
+            </div>
+            
+            </div>
+            
+            <div class="clear"></div>
+            
+            <div id="menu-bar-2-container">
+            
+            <div id="menu-bar-2">
+                
+                <a href="">Home</a>
+                
+                <a href="">UK</a>
+                
+                <a href="">World</a>
+                
+                <a href="">Business</a>
+                
+                <a href="">Politics</a>
+                
+                <a href="">Science</a>
+                
+                <a href="">Health</a>
+                
+                <a href="">Education</a>
+                
+                <a href="">Entertainment & Arts</a>
+                
+                <a href="">Video & Audio</a>
+
+                <a href="" class="no-border">More</a>
+                
+                <img id="down-arrow" src="images/down-arrow.png">
+                
+                </div>
+            
+            </div>
+        
+            <div class="clear"></div>
+            
+            <div id="page-container">
+            
+            <div id="main-article">
+                
+                <h2>Technology</h2>
+                
+                <div id="article-container">
+                
+                <h3><a href="">Call to probe Boston police tests of 'dog' robots</a></h3>
+                
+                <div id="article-summary">
+                
+                    <p>A civil liberties group wants to know if the robots will ever be armed and what roles they may take on.</p>
+                    
+                    <p><input type="image" class="clock" img src="images/clock.png">
+                    
+                    <span class="date">3h</span>
+                        
+                    <a class="topic-link" href="https://www.bbc.co.uk/news/technology">Technology</a>
+                        
+                    <input type="image" id="comment-img" img src="images/comment.png">
+                        
+                    <span>12</span></p>
+                    
+                    <hr id="article-hr" align="left">
+                    
+                    <p><a class="article-link" href="https://www.bbc.co.uk/news/av/technology-49829386/boston-dynamics-atlas-robot-twists-and-somersaults">Gymnastic robot elegantly twists and somersault</a></p>
+                    
+                     <p><a class="article-link" href="https://www.bbc.co.uk/news/technology-50316951">Robo-dog creator learned by unbalancing toddler</a></p>
+                    
+                    </div>
+                
+                <img id="main-article-image" src="images/main-article-image.png">
+                
+                </div>
+            
+            </div>
+                
+                <div id="watch-listen">
+                
+                <h4>Watch/Listen</h4>
+                    
+                <img id="vid1-image" src="images/Vid1.png">
+                    
+                    <p><a class="watch-listen-link" href="https://www.bbc.co.uk/news/technology-50680691">Rory Cellan-Jones: Reporting the news with Parkinson's</a></p>
+                    
+                    <p><img class="clock-side" src="images/clock.png"><span class="date">06 Dec 2019</span></p>
+                    
+                <div class="clear"></div>
+                    
+                    <img id="vid2-image" src="images/Vid2.png">
+                    
+                    <p><a class="watch-listen-link" href="https://www.bbc.co.uk/news/technology-50549635">Electric eel lights up Christmas tree and other news</a></p>
+                    
+                    <p><img class="clock-side" src="images/clock.png"><span class="date border-right">06 Dec 2019</span><br><a class="topic-link-1 no-border" href="https://www.bbc.co.uk/news/technology">Technology</a></p>
+                    
+                <div class="clear"></div>
+                    
+                    <img id="vid3-image" src="images/Vid3.png">
+                    
+                    <p><a class="watch-listen-link" href="https://www.bbc.co.uk/news/technology-50549634">Lotus Evija: The £2.2m electric hypercar</a></p>
+                    
+                    <p><img class="clock-side" src="images/clock.png"><span class="date border-right">05 Dec 2019</span><br><a class="topic-link-1 no-border" href="https://www.bbc.co.uk/news/technology">Technology</a></p>
+                                    
+
+                
+                </div>
+            
+        </div>
+        
+    </body>
+    
+    
+
+</html>
